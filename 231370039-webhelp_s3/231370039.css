@@ -1,0 +1,135 @@
+@charset "UTF-8";
+
+body {
+    background-color: white;
+    font-family: Calibri;
+    font-size: 11pt;
+}
+
+p {
+    -ms-defaultTabStop: 36pt;
+    line-height: 1.54;
+    margin-bottom: 8pt;
+    margin-top: 0pt;
+}
+
+p:empty {
+    height: 1em;
+}
+
+a {
+    text-decoration: none;
+}
+
+table {
+    border-collapse: separate;
+    border-spacing: 0pt;
+    empty-cells: hide;
+}
+
+td {
+    padding-bottom: 0pt;
+    padding-left: 5.75pt;
+    padding-right: 5.75pt;
+    padding-top: 0pt;
+    vertical-align: top;
+}
+
+.t-TableGrid {
+    border-bottom-color: #000000;
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+    border-left-color: #000000;
+    border-left-style: solid;
+    border-left-width: 1px;
+    border-right-color: #000000;
+    border-right-style: solid;
+    border-right-width: 1px;
+    border-top-color: #000000;
+    border-top-style: solid;
+    border-top-width: 1px;
+    margin-left: 0pt;
+}
+
+.tc-TableGrid--bb {
+    border-bottom-color: #000000;
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+}
+
+.tc-TableGrid--bl {
+    border-left-color: #000000;
+    border-left-style: solid;
+    border-left-width: 1px;
+}
+
+.tc-TableGrid--br {
+    border-right-color: #000000;
+    border-right-style: solid;
+    border-right-width: 1px;
+}
+
+.tc-TableGrid--bt {
+    border-top-color: #000000;
+    border-top-style: solid;
+    border-top-width: 1px;
+}
+
+.tc-TableGrid {
+    padding-bottom: 0pt;
+    padding-left: 5.4pt;
+    padding-right: 5.4pt;
+    padding-top: 0pt;
+}
+
+.tp-TableGrid {
+    line-height: 1.5;
+    margin-bottom: 0pt;
+}
+
+.p-Heading1 {
+    -ms-outlineLvl: 0;
+    font-weight: bold;
+    text-align: center;
+}
+
+.p-Heading2 {
+    -ms-outlineLvl: 1;
+    font-weight: bold;
+    line-height: 1.75;
+    text-align: center;
+}
+
+.p-Normal {
+
+}
+
+.p-TOC1 {
+    -ms-tab0-leader: dot;
+    -ms-tab0-pos: 467.5pt;
+    -ms-tab0: right;
+    font-weight: bold;
+    margin-bottom: 5pt;
+}
+
+.p-TOC2 {
+    margin-bottom: 5pt;
+    margin-left: 11pt;
+}
+
+.p-TOCHeading {
+    color: #2F5496;
+    font-family: "Calibri Light";
+    font-size: 16pt;
+    font-weight: normal;
+    text-align: center;
+}
+
+.c-Heading1Char {
+    font-weight: bold;
+}
+
+.c-Hyperlink {
+    color: #0563C1;
+    text-decoration: underline;
+}
